@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu formulario</title>
+</head>
+<body>
+    <p id="meuParagrafo">Texto original</p>
+    <button onclick="modificarConteudo()">Modificar Conteudo</button>
+
+        <form id="MeuForm">
+            <label for="campoNome">Nome:</label>
+            <input type="text" id="campoNome" name="nome">
+        
+            <label for="campoIdade">Idade:</label>
+            <input type="text" id="campoIdade" name="Idade">
+
+            <button type="button" onclick="capturarValores()">Capturar Valores</button>
+
+            <div id="mostrarNome"><span>Seu nome e idade irão aparecer aqui.</span></div>
+        </form>
+
+<script src="app2.js"></script>
+</body>
+</html>
